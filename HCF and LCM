@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+    
+    // hcf refers to highest common factor also known as GCD (greatest common factor)
+    // lcm refers to lowest common factor
+    int hcf =1,lcm,n1,n2;
+    cin>>n1>>n2;
+    for (int i=1;i<=(min(n1,n2));i++){
+        if(n1%i==0 && n2%i==0){
+            hcf=i;
+        }
+    }cout<<"hcf is "<<hcf<<endl;
+    lcm = (n1*n2)/hcf;
+    cout<<"lcm is "<<lcm;
+    return 0;
+}
