@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+int main(){
+    char o; //operation
+	cout<<"enter character for operation : ";
+	cin>>o;
+	double area;
+	switch(o){
+	    case 'r':
+	        case 'R':
+	            int l,b;
+	            cout<<"Enter length and breadth of Rectangle :";
+	            cin>>l>>b;
+	            area=l*b;
+	            cout<<"The Area of Rectangle is : "<<area<<"\n";
+	            break;
+	   case 'c':
+	        case 'C':
+	            int r;
+	            cout<<"Enter radius of Circle :";
+	            cin>>r;
+	            area=3.14*r*r;
+	            cout<<"The Area of circle is : "<<area<<"\n";
+	            break;
+	   case 't':
+	        case 'T':
+	            int B,h ;
+	            cout<<"Enter base and Height of traingle :";
+	            cin>>b>>h;
+	            area=0.5*b*h;
+	            cout<<"The Area of traingle is : "<<area<<"\n";
+	            break;
+	   case 'e':
+	        case 'E':
+	            cout<<"Exit";
+	            break;
+	   default:
+            cout << "Enter the valid characters !";
+	}
+	return 0;
+}
+	   case 't':
+	        case 'T':
+	            int B,h ;
+	            cout<<"Enter base and Height of traingle :";
+	            cin>>b>>h;
+	            area=0.5*b*h;
+	            cout<<"The Area of traingle is : "<<area<<"\n";
+	            break;
+	}
+	return 0;
+}
