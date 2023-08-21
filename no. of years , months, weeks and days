@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int days;
+    cout<<"enter total no. of days :";
+    cin>>days;
+    int rem = days % 365;
+    int y= days/365; //no. of years
+    int m= rem/30; //no. of months
+    rem=rem%30;
+    int w= rem/7;//no. of weeks
+    int d=rem%7;//no. of days
+    cout<<days<<" days are equal to "<<y<<" Years "<<m <<" months "<<w<<" weeks "<<d<<" days\n";
+    return 0;
+}
