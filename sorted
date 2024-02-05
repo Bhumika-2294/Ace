@@ -1,0 +1,9 @@
+Input:
+n = 3
+LinkedList = 1->2->4
+(the first and last node is connected, i.e. 4 --> 1)
+data = 2
+Output: 
+1 2 2 4
+Explanation:
+We can add 2 after the second node.
